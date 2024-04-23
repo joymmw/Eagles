@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Data Source=100.26.50.147:1521/SPRING2024PDB;User ID=UD_JKMWARIA;Password=UD_JKMWARIA" Oracle.EntityFrameworkCore --namespace Eagles.EF.Models --context-namespace Eagles.EF.Data --output-dir Models --context-dir Data --context "EaglesOracleContext" --data-annotations --no-onconfiguring --force
